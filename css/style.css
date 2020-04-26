@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("../fonts/Roboto-Light.ttf");
+}
+
+body {
+  margin: 40px 0px 0px 0px;
+}
+
+.loader-text {
+  display: block;
+  font-family: Roboto-Light;
+  font-size: 24px;
+}
+
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container-left {
+  float: left;
+  width: 50%;
+
+}
+
+.container-right {
+  float: right;
+  width: 50%;
+  text-align: left;
+}
+
+canvas {
+  float: right;
+}
+
+#label-container {
+  margin: 0px 0px 0px 15px;
+  font-family: Roboto-Light;
+}
